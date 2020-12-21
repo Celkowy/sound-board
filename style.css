@@ -43,3 +43,19 @@ body {
 .btn:active {
   transform: scale(0.98);
 }
+
+@media (max-width: 480px) {
+  body {
+  }
+
+  .btn {
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 319px) {
+  body {
+    height: 150vh;
+  }
+}
