@@ -22,12 +22,15 @@ body {
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
   background-color: #5e378f;
   padding: 25px;
   color: white;
   font-family: inherit;
   border: none;
   margin: 25px;
+  width: 150px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 21px;
